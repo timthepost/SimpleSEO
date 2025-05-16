@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "simpleseo"
-          entrypoint: "src/serve.ts"
+          entrypoint: "src/_serve.ts"
           root: ""
           
           
