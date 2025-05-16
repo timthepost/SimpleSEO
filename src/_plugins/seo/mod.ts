@@ -12,7 +12,7 @@ import {
 export type SeoReportMessages = typeof enMessages;
 
 export interface Options {
-  globalSettings?: {
+  globalSettings: {
     ignore?: string[];
     ignorePatterns?: string[];
     stateFile?: string | null;
@@ -22,7 +22,7 @@ export interface Options {
     removeReportFileIfEmpty?: boolean;
   };
 
-  localeSettings?: {
+  localeSettings: {
     defaultLocaleCode?: string;
     ignoreAllButLocaleCode?: string;
     commonWordSet?: Set<string>;
