@@ -7,25 +7,24 @@
 @import "_includes/css/opendyslexic.css";
 @import "_includes/css/forms.css";
 
-/* Light Mode Theme Palette */
 :root {
-  --ifm-color-primary: #184b9c;
-  --ifm-color-secondary: #abaeb3db;
-  /* 
-   * TODO: These are Infima defaults. 
-   * The vars color-success onward need to be darker along with
-   * hover states for accessibility; their contrast is a touch too 
-   * low. On the roadmap.
-   */
-  --ifm-color-success: #00a400;
-  --ifm-color-info: #54c7ec;
-  --ifm-color-warning: #ffba00;
-  --ifm-color-danger: #fa383e;
+  --ifm-color-primary: #99208e;
+  --ifm-color-primary-dark: #6b1663;
+  --ifm-color-primary-darker: #601459;
+  --ifm-color-primary-darkest: #5a1354;
+  --ifm-color-primary-light: #6b1663;
+  --ifm-color-primary-lighter: #7a1a72;
+  --ifm-color-primary-lightest: #99208e;
 }
 
-/* Dark Mode Overrides For Light Mode */
-[data-theme="dark"] {
-  --ifm-color-primary: steelblue;
+[data-theme='dark'] {
+  --ifm-color-primary: #ecc5fe;
+  --ifm-color-primary-dark: #dd99fd;
+  --ifm-color-primary-darker: #d682fd;
+  --ifm-color-primary-darkest: #d682fd;
+  --ifm-color-primary-light: #fbf1ff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
 }
 
 /* Compensate for sticky nav height in anchor navigation */

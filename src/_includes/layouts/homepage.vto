@@ -12,21 +12,8 @@
   <div class="main-wrapper">
     <main data-pagefind-body>
       <div class="container margin-top--lg">
-        <div class="row">
-          {{ for _key, value of demo.goals }}
-            <div class="col col--4">
-              {{
-                await comp.card({
-                  title: value.title,
-                  body: value.body,
-                  href: value.href,
-                  cta: value.cta,
-                  min_height: "300px",
-                })
-              }}
-            </div>
-          {{ /for }}
-        </div>
+       <h2>Coming Soon</h2>
+       <p>Content coming soon.</p>
         <div class="row margin-top--lg">
           <div class="col col--12">
             {{ await comp.latestBlog() }}
