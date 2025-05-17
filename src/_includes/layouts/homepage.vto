@@ -1,19 +1,17 @@
 {{ include "layouts/base.vto" }}
 <body>
   {{ include "partials/nav.vto" }}
-  {{
-    await comp.hero({
-      title: demo.hero.title,
-      slogan: demo.hero.slogan,
-      href: demo.hero.href,
-      cta: demo.hero.cta,
-    })
-  }}
   <div class="main-wrapper">
     <main data-pagefind-body>
       <div class="container margin-top--lg">
-       <h2>Coming Soon</h2>
-       <p>Content coming soon.</p>
+       <h1>SimpleSEO</h1>
+       <p>
+       SimpleSEO is a Lume-native, comprehensive and flexible static SEO analysis 
+       tool for Lume 3. It analyzes the Document object created for each Lume 
+       HTML page and detects issues that are very common to static websites generated
+       from markdown and templates.
+       </p>
+       <p>More content coming soon.</p>
         <div class="row margin-top--lg">
           <div class="col col--12">
             {{ await comp.latestBlog() }}
