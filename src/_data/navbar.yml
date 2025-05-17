@@ -1,54 +1,47 @@
 top_nav:
   - type: "menu"
-    text: Quick Start
+    text: Configuration Examples
     href: /quickstart/
     title: You've got this!
     links:
-      - text: Configuration & Deployment
-        href: /quickstart/
-        title: Almost no configuration is needed.
+      - text: Single Locale / Typical Blog Site
+        href: "#"
+        title: Zero config for most personal blogs.
 
-      - text: View The Components
-        href: /infima-components/
-        title: Neat Things You Can Build Awesome Websites With!
+      - text: Multiple Locales / Multilingual Blog Site
+        href: "#"
+        title: Tested on active complex sites.
 
-      - text: Come Hang Out!
-        href: /blog/example-post/
-        title: You are cordially invited to come hang out with us in Discord!
+      - text: Essays & Short Stories / Magazine Style Site
+        href: "#"
+        title: For text-heavy sites that tend to oscillate between length extremes.
+
+      - text: View All Configuration Options
+        href: "#"
+        title: This thing is flexible. We mean REALLY flexible.
 
   - type: "link"
     href: "/docs/"
-    text: Docs
+    text: Plugin Documentation
     title: All The Docs Ship With The Theme.
 
   - type: "link"
     href: "/blog/"
-    text: Blog
+    text: Release Blog
     title: We Created One Post, Just For You!
 
 footer:
-  - category: "Theme Basics:"
+  - category: "Coming Soon"
     links:
-      - text: Fundamental Archetypes Explained
-        href: https://cushytext.deno.dev/docs/archetypes/
-
-      - text: Working With Components
-        href: https://cushytext.deno.dev/docs/components/
-
-      - text: Lume 3 Router Middleware
-        href: https://cushytext.deno.dev/docs/middleware/
-
-  - category: "Join The Community:"
+      - text: Coming Soon
+        href: "#"
+  - category: "Coming Soon"
     links:
-      - text: Cushy Text Discord Server
-        href: "https://discord.gg/ETx8S8cWwH"
-
-      - text: Lume Discord Server
-        href: "https://discord.gg/YbTmpACHWB"
-
-  - category: "Your Category Here:"
+      - text: Coming Soon
+        href: "#"
+  - category: "Coming Soon"
     links:
-      - text: Your Link Here
+      - text: Coming Soon
         href: "#"
 
   - category: "Other Useful Resources:"
@@ -56,8 +49,8 @@ footer:
       - text: Lume Documentation
         href: "https://lume.land/docs/overview/about-lume/"
 
-      - text: Lume Theme Gallery
-        href: "https://lume.land/themes/"
+      - text: Lume Plugins Directory
+        href: "https://lume.land/plugins/"
 
       - text: Open Dyslexic Font
         href: "https://opendyslexic.org/"
