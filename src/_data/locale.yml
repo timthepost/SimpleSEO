@@ -64,7 +64,7 @@ blog_index:
 
 comp:
   latestBlog:
-    heading: "Latest From The Blog:"
+    heading: "Latest From The SimpleSEO Development Blog:"
 
   feedback:
     prompt: "Was reading this article a good use of your time?"

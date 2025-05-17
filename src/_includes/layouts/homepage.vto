@@ -3,20 +3,40 @@
   {{ include "partials/nav.vto" }}
   <div class="main-wrapper">
     <main data-pagefind-body>
-      <div class="container margin-top--lg">
+    <div class="container margin-top--lg">
+      <div class="row">
+      <div class="col col--12">
        <h1>SimpleSEO</h1>
        <p>
        SimpleSEO is a Deno-native, comprehensive and flexible static SEO analysis 
-       tool for Lume 3. It analyzes the Document object created for each Lume 
-       HTML page and detects issues that are very common to static websites generated
-       from markdown and templates.
+       tool for Lume 3. It analyzes the Document object Lume creates for each 
+       HTML page based on a simple, natural-language configuration that even non-tech 
+       people can easily understand. SimpleSEO was created as part of and ships with
+       <a href="https://cushytext.deno.dev">CushyText</a>, an interactive theme for 
+       Lume 3, and is free (MIT license) for use on any Lume site for any purpose.
        </p>
-       <p>More content coming soon.</p>
+       <p>
+       Currently, the plugin analyzes <strong>length</strong>, <strong>order</strong>,
+       <strong>originality</strong> and <strong>structure</strong> of generated pages
+       to make sure nothing is getting in the way of your page getting a fair shake
+       in search engine indexes. It's specifically designed to catch issues that are
+       very common to static sites generated from markdown and / in templates.
+       </p>
+       <p>
+       SimpleSEO is designed to be translated: both the warnings as well as the text
+       shown in the console and Lume bar are contained in a single, easy to translate
+       locale class. Content originality checks are currently available in English and 
+       Japanese.
+       </p>
+       <p><strong>Current Version: 2.0.0</strong></p>
+       <button class="button button--primary">Get Started: Installing</button>
+       </div>
         <div class="row margin-top--lg">
           <div class="col col--12">
             {{ await comp.latestBlog() }}
           </div>
         </div>
+      </div>
       </div>
     </main>
   </div>
