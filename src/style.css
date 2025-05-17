@@ -20,9 +20,9 @@
 [data-theme='dark'] {
   --ifm-color-primary: #ecc5fe;
   --ifm-color-primary-dark: #dd99fd;
-  --ifm-color-primary-darker: #d682fd;
+  --ifm-color-primary-darker: #b868d7;
   --ifm-color-primary-darkest: #5f1458;
-  --ifm-color-primary-light: #fbf1ff;
+  --ifm-color-primary-light: #bf6ce0;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
 }
